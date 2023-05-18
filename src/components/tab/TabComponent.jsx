@@ -5,18 +5,15 @@ import TabCard from "./TabCard";
 
 const TabComponent = () => {
   const [toys, setToys] = useState([]);
-  const [activeTab, setActiveTab] = useState("ransformers");
+  const [activeTab, setActiveTab] = useState("Avengers");
 
   useEffect(() => {
-    fetch("http://localhost:5000/toys")
+    fetch(`http://localhost:5000/toys/${activeTab}`)
       .then((res) => res.json())
       .then((data) => setToys(data));
-  }, []);
+  }, [activeTab]);
 
-    // console.log(toys);
-
-  const result = toys.filter((toy) => toy.categoryName == activeTab);
-  console.log(result);
+  console.log(toys);
 
   const handleTabClick = (tabName) => {
     setActiveTab(tabName);
@@ -36,15 +33,17 @@ const TabComponent = () => {
                 <div onClick={() => handleTabClick("Star wars")}>Star Wars</div>
               </Tab>
               <Tab>
-                <div onClick={() => handleTabClick("transformers")}>Transfermers</div>
+                <div onClick={() => handleTabClick("transformers")}>
+                  Transfermers
+                </div>
               </Tab>
             </TabList>
           </div>
-          <TabPanel>
-            {toys.map((toy) => (
+          <div className="grid grid-cols-2 pt-5 gap-5">
+            {toys?.map((toy) => (
               <TabCard key={toy._id} toy={toy}></TabCard>
             ))}
-          </TabPanel>
+          </div>
         </Tabs>
       </div>
     </div>

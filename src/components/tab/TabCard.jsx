@@ -1,29 +1,22 @@
-import { TabPanel } from "react-tabs";
+import { Link } from "react-router-dom";
 
 const TabCard = ({ toy }) => {
-  const { _id,picture, name, price, rating } = toy;
+  const { _id, picture, name, price, rating } = toy;
   return (
-    <div>
-      <div className="flex justify-around">
-        <div className="card card-compact w-96 bg-base-100 shadow-xl">
-          <figure>
-            <img
-              src={picture}
-              alt="Shoes"
-            />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title">Toy Name: {name}</h2>
-            <h2 className="card-title">Price: ${price}</h2>
-            <h2 className="card-title">Rating: {rating}</h2>
-
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">View Details</button>
-            </div>
-          </div>
+    <div className="card lg:card-side bg-base-100 shadow-xl">
+      <figure>
+        <img className="h-96 w-96" src={picture} alt="Album" />
+      </figure>
+      <div className="card-body">
+        <div className="text-start">
+          <h2 className="card-title">{name}</h2>
+          <p>Price: ${price} </p>
+          <p>Rating: {rating} </p>
+        </div>
+        <div className="card-actions justify-end my-auto ">
+          <button className="btn btn-primary w-full">View Details</button>
         </div>
       </div>
-      <TabPanel></TabPanel>
     </div>
   );
 };
