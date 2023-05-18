@@ -1,5 +1,5 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import logo from '../../assets/images/login/login.svg'
+// import logo from '../../assets/images/login/login.svg'
 import { useContext, useState } from "react";
 import { AuthContext } from "../../providers/AuthProviders";
 import SocialLogin from "../socialLogin/SocialLogin";
@@ -39,10 +39,10 @@ const Login = () => {
     return (
         <div className="hero min-h-screen bg-base-200 ">
             <div className="lg:hero-content lg:flex-row lg:w-4/5">
-                <div className="invisible lg:visible w-1/2">
+                {/* <div className="invisible lg:visible w-1/2">
                     <img src={logo} alt="" />
 
-                </div>
+                </div> */}
                 <div className="card w-full max-w-sm shadow-2xl bg-base-100">
                     <form onSubmit={handleSignIn}>
                         <div className="card-body">

@@ -1,9 +1,9 @@
-# nextPage Starter Repository
+# Marvel Toys Market Starter Repository
 
 A simple React app built with React & React Router Dom.
 
 ## Live Link
-Hosted in Netlify -> [nextPage](''''')
+Hosted in Netlify -> [Marvel Toys Market](''''')
 
 
 ## Starter Template

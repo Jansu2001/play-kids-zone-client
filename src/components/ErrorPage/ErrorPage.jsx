@@ -1,6 +1,5 @@
-import { FaceFrownIcon } from '@heroicons/react/24/solid'
-import logo from '../../assets/error.jpg'
-import React from 'react'
+
+import logo from '../../assets/Error.png'
 import { Link, useRouteError } from 'react-router-dom'
 
 const ErrorPage = () => {
@@ -9,7 +8,7 @@ const ErrorPage = () => {
         <section className="d-flex align-items-center vh-100 p-4 bg-light text-dark">
             <div className="container d-flex flex-column justify-content-center align-items-center px-5 my-8">
                 {/* <FaceFrownIcon className="w-25 h-25 text-warning" /> */}
-                <img className="w-25 h-25 text-warning" src={logo} alt="" />
+                <img className="w-25 h-25 mx-auto" src={logo} alt="" />
                 <div className="mx-auto text-center">
                     <h2 className="mb-8 font-weight-bold display-1 text-warning">
                         <span className='sr-only'>Error</span>
