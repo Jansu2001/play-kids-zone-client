@@ -18,7 +18,7 @@ const Home = () => {
 
     }, [])
 
-    console.log(toys);
+    // console.log(toys);
 
     return (
         <div>
