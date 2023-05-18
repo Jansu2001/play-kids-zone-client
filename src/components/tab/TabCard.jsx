@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const TabCard = ({ toy }) => {
-  const { _id, picture, name, price, rating } = toy;
+  const {  picture, name, price, rating } = toy;
   return (
     <div className="card lg:card-side bg-base-100 shadow-xl">
       <figure>
@@ -14,7 +14,7 @@ const TabCard = ({ toy }) => {
           <p>Rating: {rating} </p>
         </div>
         <div className="card-actions justify-end my-auto ">
-          <button className="btn btn-primary w-full">View Details</button>
+          <Link className="btn btn-primary w-full">View Details</Link>
         </div>
       </div>
     </div>
