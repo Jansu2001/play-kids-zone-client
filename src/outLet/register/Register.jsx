@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-// import logo from '../../assets/images/login/login.svg'
 import { useContext, useState } from "react";
 import { AuthContext } from "../../providers/AuthProviders";
 
@@ -54,19 +53,11 @@ const Register = () => {
           setError(error.message);
         });
     };
-
-    // Mongodb
-    const formInfo = { name, email, password };
-    console.log(formInfo);
   };
 
   return (
     <div className="hero min-h-screen bg-base-200">
       <div className="lg:hero-content flex-col lg:flex-row lg:w-4/5">
-        {/* <div className="invisible lg:visible w-1/2">
-                    <img src={logo} alt="" />
-
-                </div> */}
         <div className="card  w-full max-w-sm shadow-2xl bg-base-100">
           <form onSubmit={handleRegister}>
             <div className="card-body">
@@ -132,10 +123,10 @@ const Register = () => {
               <div className="text-center pt-3">
                 <SocialLogin></SocialLogin>
                 <p className="pt-4">
-                  Have an Account?{" "}
+                  Have an Account?
                   <Link className="text-orange-700" to="/login">
                     Login
-                  </Link>{" "}
+                  </Link>
                 </p>
               </div>
             </div>

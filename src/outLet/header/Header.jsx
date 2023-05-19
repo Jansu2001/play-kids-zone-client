@@ -50,8 +50,9 @@ const Header = () => {
                         {navItems}
                     </ul>
                 </div>
-                <Link to='/' className="pl-5">
+                <Link to='/' className="pl-8">
                     <img className='w-20 h-20' src={logo} alt="" />
+                    <p className='text-white font-bold'>Play Kids Zone</p>
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
