@@ -3,7 +3,7 @@ import { useContext, useState } from "react";
 import { AuthContext } from "../../providers/AuthProviders";
 
 import { updateProfile } from "firebase/auth";
-import SocialLogin from "../socialLogin/SocialLogin";
+// import SocialLogin from "../socialLogin/SocialLogin";
 
 const Register = () => {
   const { createUser, signOutUser } = useContext(AuthContext);
@@ -121,7 +121,7 @@ const Register = () => {
                 />
               </div>
               <div className="text-center pt-3">
-                <SocialLogin></SocialLogin>
+                {/* <SocialLogin></SocialLogin> */}
                 <p className="pt-4">
                   Have an Account?
                   <Link className="text-orange-700" to="/login">

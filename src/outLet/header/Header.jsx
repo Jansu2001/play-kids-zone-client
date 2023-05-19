@@ -34,12 +34,10 @@ const Header = () => {
                         user && <img title={user.displayName
                         } className='profile' src={user.photoURL} alt="" />
                     }
-
-            {/* <Link> {user && user.displayName}</Link> */}
         
     </>
     return (
-        <div className="navbar bg bg-[#1C1E53]  mt-4">
+        <div className="navbar bg bg-[#1C1E53] pb-5 mt-4">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
