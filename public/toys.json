@@ -8,7 +8,7 @@
   },
   {
     "toy_name": "Speed Racer",
-    "category": "Cars",
+    "category": "Cars Toys",
     "picture": "https://images.unsplash.com/photo-1625039217696-403773390a30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
     "price": "$29.99",
     "rating": 4.5,
@@ -17,7 +17,7 @@
 ,
 {
     "toy_name": "Super Action Hero",
-    "category": "Action",
+    "category": "Action Toys",
     "picture": "https://images.unsplash.com/photo-1608889335949-4322c37f42f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80",
     "price": "$29.99",
     "rating": 4.5,
@@ -26,7 +26,7 @@
 ,
 {
     "toy_name": "Fashion Doll",
-    "category": "Dolls",
+    "category": "Dolls Toys",
     "picture": "https://i.ibb.co/S3XM0Fh/216861.jpg",
     "price": "$29.99",
     "rating": 4.5,

@@ -12,7 +12,7 @@ const Banner = () => {
   console.log(cateCards);
 
   return (
-    <div>
+    <div className="pt-10">
       <div className="carousel autoplay-true  interval-3000 rounded-box">
         <div className="carousel-item">
           <img
@@ -57,10 +57,10 @@ const Banner = () => {
           />
         </div>
       </div>
-        <h1 className="pt-10 text-4xl font-bold text-center">Available Category </h1>
+        <h1 className="p-5 mt-5 text-3xl lg:text-4xl lg:mx-auto rounded-lg lg:w-1/2 bg bg-sky-400 font-bold text-center">Popular Category </h1>
       <div className="pt-10 gap-5  grid grid-cols-1 lg:grid-cols-2">
         {
-            cateCards.slice(0,4).map((card,index)=><BannerCard
+            cateCards.map((card,index)=><BannerCard
             key={index}
             card={card}
             ></BannerCard>)
