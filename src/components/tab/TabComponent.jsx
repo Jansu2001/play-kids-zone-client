@@ -13,7 +13,7 @@ const TabComponent = () => {
       .then((data) => setToys(data));
   }, [activeTab]);
 
-  console.log(toys);
+  // console.log(toys);
 
   const handleTabClick = (tabName) => {
     setActiveTab(tabName);
@@ -39,7 +39,7 @@ const TabComponent = () => {
               </Tab>
             </TabList>
           </div>
-          <div className="grid grid-cols-2 pt-5 gap-5">
+          <div className="grid grid-cols-1 lg:grid-cols-2 pt-5 gap-5">
             {toys?.map((toy) => (
               <TabCard key={toy._id} toy={toy}></TabCard>
             ))}

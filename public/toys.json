@@ -1,0 +1,36 @@
+[{
+    "toy_name": "Cooking Naina",
+    "category": "Cooking Toys",
+    "picture": "https://i.ibb.co/rc0JWqw/screen-1.webp",
+    "price": "$29.99",
+    "rating": 4.5,
+    "short_details": "A complete kitchen set for young aspiring chefs."
+  },
+  {
+    "toy_name": "Speed Racer",
+    "category": "Cars",
+    "picture": "https://images.unsplash.com/photo-1625039217696-403773390a30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+    "price": "$29.99",
+    "rating": 4.5,
+    "short_details": "Zoom through the tracks with this high-speed toy car."
+  }
+,
+{
+    "toy_name": "Super Action Hero",
+    "category": "Action",
+    "picture": "https://images.unsplash.com/photo-1608889335949-4322c37f42f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80",
+    "price": "$29.99",
+    "rating": 4.5,
+    "short_details": "Unleash your inner hero with this action-packed toy."
+  }
+,
+{
+    "toy_name": "Fashion Doll",
+    "category": "Dolls",
+    "picture": "https://i.ibb.co/S3XM0Fh/216861.jpg",
+    "price": "$29.99",
+    "rating": 4.5,
+    "short_details": "Style and accessorize with this fashionable doll toy."
+  }
+  
+  ]

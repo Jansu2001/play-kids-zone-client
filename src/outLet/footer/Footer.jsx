@@ -1,5 +1,5 @@
 // import { FaFacebook, FaGithub, FaGoogle } from 'react-icons/fa';
-import logo from '../../assets/logo.svg'
+import logo from '../../assets/icons/FavIcon.png'
 
 
 const Footer = () => {
@@ -8,7 +8,7 @@ const Footer = () => {
 
             <footer className="footer gird grid-cols-2 lg:grid-cols-3 p-10  text-neutral-content">
                 <div>
-                    <img src={logo} alt="" />
+                    <img className='h-40' src={logo} alt="" />
                 </div>
                 <div>
                     <span className="footer-title">Services</span>

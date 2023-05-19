@@ -14,21 +14,21 @@ const Header = () => {
 
 
     const navItems = <>
-        <li><NavLink className={({isActive})=> isActive?'rounded px-2 py-1 bg bg-indigo-700 text-white':'rounded px-2 py-1'} to='/'>Home</NavLink></li>
-        <li><NavLink className={({isActive})=> isActive?'rounded px-2 py-1 bg bg-indigo-700 text-white':'rounded px-2 py-1'} to='/all-toys'>All Toys</NavLink></li>
+        <li><NavLink className={({isActive})=> isActive?'rounded px-2 py-1 bg bg-indigo-700  text-white':'rounded px-2 py-1'} to='/'>Home</NavLink></li>
+        <li><NavLink className={({isActive})=> isActive?'rounded px-2 py-1 bg bg-indigo-700  text-white':'rounded px-2 py-1'} to='/all-toys'>All Toys</NavLink></li>
 
-        <li><NavLink className={({isActive})=> isActive?'rounded px-2 py-1 bg bg-indigo-700 text-white':'rounded px-2 py-1'} to='/blogs'>Blogs</NavLink></li>
+        <li><NavLink className={({isActive})=> isActive?'rounded px-2 py-1 bg bg-indigo-700  text-white':'rounded px-2 py-1'} to='/blogs'>Blogs</NavLink></li>
         {
             user ?
                 <>
-                    <li><NavLink className={({isActive})=> isActive?'rounded px-2 py-1 bg bg-indigo-700 text-white':'rounded px-2 py-1'} to='/my-toys'>My Toys</NavLink></li>
-                    <li><NavLink className={({isActive})=> isActive?'rounded px-2 py-1 bg bg-indigo-700 text-white':'rounded px-2 py-1'} to='/add-toys'> Add A Toy</NavLink></li>
+                    <li><NavLink className={({isActive})=> isActive?'rounded px-2 py-1 bg bg-indigo-700  text-white':'rounded px-2 py-1'} to='/my-toys'>My Toys</NavLink></li>
+                    <li><NavLink className={({isActive})=> isActive?'rounded px-2 py-1 bg bg-indigo-700  text-white':'rounded px-2 py-1'} to='/add-toys'> Add A Toy</NavLink></li>
                     <li><button onClick={handleSignOut}>Log out</button></li>
 
                 </>
 
                 :
-                <li><NavLink className={({isActive})=> isActive?'rounded px-2 py-1 bg bg-indigo-700 text-white':'rounded px-2 py-1'} to='/login'>Login</NavLink></li>
+                <li><NavLink className={({isActive})=> isActive?'rounded px-2 py-1 bg bg-indigo-700  text-white':'rounded px-2 py-1'} to='/login'>Login</NavLink></li>
         }
         {
                         user && <img title={user.displayName

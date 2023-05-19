@@ -1,516 +1,202 @@
 [
-    {
-        "shopByCategory": {
-            "tabs": [
-                {
-                    "name": "Avengers",
-                    "subcategories": [
-                        {
-                            "name": "Avengers",
-                            "toys": [
-                                {
-                                    "image": "avengers1.jpg",
-                                    "name": "Iron Man",
-                                    "price": 19.99,
-                                    "rating": 4.5
-                                },
-                                {
-                                    "image": "avengers2.jpg",
-                                    "name": "Captain America",
-                                    "price": 12.99,
-                                    "rating": 3.8
-                                }
-                            ]
-                        },
-                        {
-                            "name": "X-Men",
-                            "toys": [
-                                {
-                                    "image": "xmen1.jpg",
-                                    "name": "Wolverine",
-                                    "price": 24.99,
-                                    "rating": 4.2
-                                },
-                                {
-                                    "image": "xmen2.jpg",
-                                    "name": "Storm",
-                                    "price": 17.99,
-                                    "rating": 4.0
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Spider-Man",
-                            "toys": [
-                                {
-                                    "image": "spiderman1.jpg",
-                                    "name": "Spider-Man",
-                                    "price": 29.99,
-                                    "rating": 4.7
-                                },
-                                {
-                                    "image": "spiderman2.jpg",
-                                    "name": "Venom",
-                                    "price": 34.99,
-                                    "rating": 4.9
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Villains",
-                    "subcategories": [
-                        {
-                            "name": "Avengers Villains",
-                            "toys": [
-                                {
-                                    "image": "avengers_villains1.jpg",
-                                    "name": "Thanos",
-                                    "price": 29.99,
-                                    "rating": 4.7
-                                },
-                                {
-                                    "image": "avengers_villains2.jpg",
-                                    "name": "Loki",
-                                    "price": 34.99,
-                                    "rating": 4.9
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Spider-Man Villains",
-                            "toys": [
-                                {
-                                    "image": "spiderman_villains1.jpg",
-                                    "name": "Green Goblin",
-                                    "price": 21.99,
-                                    "rating": 4.3
-                                },
-                                {
-                                    "image": "spiderman_villains2.jpg",
-                                    "name": "Venom",
-                                    "price": 18.99,
-                                    "rating": 4.1
-                                }
-                            ]
-                        },
-                        {
-                            "name": "X-Men Villains",
-                            "toys": [
-                                {
-                                    "image": "xmen_villains1.jpg",
-                                    "name": "Magneto",
-                                    "price": 15.99,
-                                    "rating": 3.7
-                                },
-                                {
-                                    "image": "xmen_villains2.jpg",
-                                    "name": "Mystique",
-                                    "price": 22.99,
-                                    "rating": 4.6
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Teams",
-                    "subcategories": [
-                        {
-                            "name": "Guardians of the Galaxy",
-                            "toys": [
-                                {
-                                    "image": "guardians1.jpg",
-                                    "name": "Star-Lord",
-                                    "price": 15.99,
-                                    "rating": 3.7
-                                },
-                                {
-                                    "image": "guardians2.jpg",
-                                    "name": "Rocket Raccoon",
-                                    "price": 22.99,
-                                    "rating": 4.6
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Fantastic Four",
-                            "toys": [
-                                {
-                                    "image": "fantastic4_1.jpg",
-                                    "name": "Mr. Fantastic",
-                                    "price": 27.99,
-                                    "rating": 4.4
-                                },
-                                {
-                                    "image": "fantastic4_2.jpg",
-                                    "name": "Invisible Woman",
-                                    "price": 16.99,
-                                    "rating": 3.9
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Avengers",
-                            "toys": [
-                                {
-                                    "image": "avengers3.jpg",
-                                    "name": "Thor",
-                                    "price": 19.99,
-                                    "rating": 4.5
-                                },
-                                {
-                                    "image": "avengers4.jpg",
-                                    "name": "Hulk",
-                                    "price": 12.99,
-                                    "rating": 3.8
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "tabs": [
-                {
-                    "name": "Jedi",
-                    "subcategories": [
-                        {
-                            "name": "Luke Skywalker",
-                            "toys": [
-                                {
-                                    "image": "luke_skywalker1.jpg",
-                                    "name": "Luke Skywalker Figure",
-                                    "price": 19.99,
-                                    "rating": 4.5
-                                },
-                                {
-                                    "image": "luke_skywalker2.jpg",
-                                    "name": "Lightsaber Replica",
-                                    "price": 29.99,
-                                    "rating": 4.7
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Obi-Wan Kenobi",
-                            "toys": [
-                                {
-                                    "image": "obiwan_kenobi1.jpg",
-                                    "name": "Obi-Wan Kenobi Costume",
-                                    "price": 39.99,
-                                    "rating": 4.9
-                                },
-                                {
-                                    "image": "obiwan_kenobi2.jpg",
-                                    "name": "Force FX Lightsaber",
-                                    "price": 49.99,
-                                    "rating": 4.8
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Yoda",
-                            "toys": [
-                                {
-                                    "image": "yoda1.jpg",
-                                    "name": "Yoda Plush Toy",
-                                    "price": 14.99,
-                                    "rating": 4.2
-                                },
-                                {
-                                    "image": "yoda2.jpg",
-                                    "name": "Yoda Backpack",
-                                    "price": 24.99,
-                                    "rating": 4.6
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Sith",
-                    "subcategories": [
-                        {
-                            "name": "Darth Vader",
-                            "toys": [
-                                {
-                                    "image": "darth_vader1.jpg",
-                                    "name": "Darth Vader Helmet",
-                                    "price": 59.99,
-                                    "rating": 4.7
-                                },
-                                {
-                                    "image": "darth_vader2.jpg",
-                                    "name": "Darth Vader Action Figure",
-                                    "price": 19.99,
-                                    "rating": 4.4
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Darth Maul",
-                            "toys": [
-                                {
-                                    "image": "darth_maul1.jpg",
-                                    "name": "Darth Maul Double-Bladed Lightsaber",
-                                    "price": 34.99,
-                                    "rating": 4.6
-                                },
-                                {
-                                    "image": "darth_maul2.jpg",
-                                    "name": "Darth Maul Costume",
-                                    "price": 49.99,
-                                    "rating": 4.8
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Kylo Ren",
-                            "toys": [
-                                {
-                                    "image": "kylo_ren1.jpg",
-                                    "name": "Kylo Ren Lightsaber",
-                                    "price": 29.99,
-                                    "rating": 4.5
-                                },
-                                {
-                                    "image": "kylo_ren2.jpg",
-                                    "name": "Kylo Ren Mask",
-                                    "price": 14.99,
-                                    "rating": 4.2
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Droids",
-                    "subcategories": [
-                        {
-                            "name": "R2-D2",
-                            "toys": [
-                                {
-                                    "image": "r2d2_1.jpg",
-                                    "name": "R2-D2 Interactive Astromech Droid",
-                                    "price": 99.99,
-                                    "rating": 4.9
-                                },
-                                {
-                                    "image": "r2d2_2.jpg",
-                                    "name": "R2-D2 App-Enabled Droid",
-                                    "price": 79.99,
-                                    "rating": 4.7
-                                }
-                            ]
-                        },
-                        {
-                            "name": "BB-8",
-                            "toys": [
-                                {
-                                    "image": "bb8_1.jpg",
-                                    "name": "BB-8 App-Enabled Droid",
-                                    "price": 69.99,
-                                    "rating": 4.8
-                                },
-                                {
-                                    "image": "bb8_2.jpg",
-                                    "name": "BB-8 Plush Toy",
-                                    "price": 19.99,
-                                    "rating": 4.3
-                                }
-                            ]
-                        },
-                        {
-                            "name": "C-3PO",
-                            "toys": [
-                                {
-                                    "image": "c3po_1.jpg",
-                                    "name": "C-3PO Action Figure",
-                                    "price": 24.99,
-                                    "rating": 4.6
-                                },
-                                {
-                                    "image": "c3po_2.jpg",
-                                    "name": "C-3PO Pop Vinyl Figure",
-                                    "price": 9.99,
-                                    "rating": 4.1
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "tabs": [
-                {
-                    "name": "Autobots",
-                    "subcategories": [
-                        {
-                            "name": "Optimus Prime",
-                            "toys": [
-                                {
-                                    "image": "optimus_prime1.jpg",
-                                    "name": "Optimus Prime Action Figure",
-                                    "price": 29.99,
-                                    "rating": 4.6
-                                },
-                                {
-                                    "image": "optimus_prime2.jpg",
-                                    "name": "Optimus Prime Transformer Toy",
-                                    "price": 39.99,
-                                    "rating": 4.8
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Bumblebee",
-                            "toys": [
-                                {
-                                    "image": "bumblebee1.jpg",
-                                    "name": "Bumblebee Movie Edition Figure",
-                                    "price": 24.99,
-                                    "rating": 4.4
-                                },
-                                {
-                                    "image": "bumblebee2.jpg",
-                                    "name": "Bumblebee Deluxe Class Toy",
-                                    "price": 19.99,
-                                    "rating": 4.2
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Optimus Primal",
-                            "toys": [
-                                {
-                                    "image": "optimus_primal1.jpg",
-                                    "name": "Optimus Primal Beast Wars Figure",
-                                    "price": 34.99,
-                                    "rating": 4.7
-                                },
-                                {
-                                    "image": "optimus_primal2.jpg",
-                                    "name": "Optimus Primal Voyager Class Toy",
-                                    "price": 49.99,
-                                    "rating": 4.9
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Decepticons",
-                    "subcategories": [
-                        {
-                            "name": "Megatron",
-                            "toys": [
-                                {
-                                    "image": "megatron1.jpg",
-                                    "name": "Megatron Voyager Class Toy",
-                                    "price": 39.99,
-                                    "rating": 4.6
-                                },
-                                {
-                                    "image": "megatron2.jpg",
-                                    "name": "Megatron Action Figure",
-                                    "price": 29.99,
-                                    "rating": 4.4
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Starscream",
-                            "toys": [
-                                {
-                                    "image": "starscream1.jpg",
-                                    "name": "Starscream Masterpiece Figure",
-                                    "price": 69.99,
-                                    "rating": 4.8
-                                },
-                                {
-                                    "image": "starscream2.jpg",
-                                    "name": "Starscream Deluxe Class Toy",
-                                    "price": 19.99,
-                                    "rating": 4.2
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Soundwave",
-                            "toys": [
-                                {
-                                    "image": "soundwave1.jpg",
-                                    "name": "Soundwave Voyager Class Toy",
-                                    "price": 34.99,
-                                    "rating": 4.5
-                                },
-                                {
-                                    "image": "soundwave2.jpg",
-                                    "name": "Soundwave Action Figure",
-                                    "price": 24.99,
-                                    "rating": 4.1
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Dinobots",
-                    "subcategories": [
-                        {
-                            "name": "Grimlock",
-                            "toys": [
-                                {
-                                    "image": "grimlock1.jpg",
-                                    "name": "Grimlock Voyager Class Toy",
-                                    "price": 49.99,
-                                    "rating": 4.7
-                                },
-                                {
-                                    "image": "grimlock2.jpg",
-                                    "name": "Grimlock Action Figure",
-                                    "price": 29.99,
-                                    "rating": 4.3
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Slag",
-                            "toys": [
-                                {
-                                    "image": "slag1.jpg",
-                                    "name": "Slag Deluxe Class Toy",
-                                    "price": 19.99,
-                                    "rating": 4.2
-                                },
-                                {
-                                    "image": "slag2.jpg",
-                                    "name": "Slag Action Figure",
-                                    "price": 14.99,
-                                    "rating": 3.9
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Snarl",
-                            "toys": [
-                                {
-                                    "image": "snarl1.jpg",
-                                    "name": "Snarl Deluxe Class Toy",
-                                    "price": 24.99,
-                                    "rating": 4.4
-                                },
-                                {
-                                    "image": "snarl2.jpg",
-                                    "name": "Snarl Action Figure",
-                                    "price": 19.99,
-                                    "rating": 4.0
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    }
+  {
+    "toy_name": "Galaxy Explorer",
+    "picture": "https://images.unsplash.com/photo-1489367874814-f5d040621dd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=846&q=80",
+    "category": "Science",
+    "price": "$29.99",
+    "short_details": "Explore the wonders of the galaxy with this interactive toy.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "RoboLab",
+    "picture": "https://images.unsplash.com/photo-1625442772842-329d4f08ea14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+    "category": "Science",
+    "price": "$49.99",
+    "short_details": "Build and program your own robots with this educational kit.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "Chemistry Master",
+    "picture": "chemistry_master.jpg",
+    "category": "Science",
+    "price": "$39.99",
+    "short_details": "Perform exciting chemistry experiments with this comprehensive kit.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "EcoBot",
+    "picture": "ecobot.jpg",
+    "category": "Science",
+    "price": "$24.99",
+    "short_details": "Learn about renewable energy sources with this eco-friendly robot.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "Space Puzzle",
+    "picture": "space_puzzle.jpg",
+    "category": "Science",
+    "price": "$14.99",
+    "short_details": "Assemble this captivating space-themed puzzle with your family.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "Speed Racer",
+    "picture": "shttps://images.unsplash.com/photo-1625039217696-403773390a30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+    "category": "Toy Cars",
+    "price": "$19.99",
+    "short_details": "Zoom through the tracks with this high-speed toy car.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "Off-Road Adventure",
+    "picture": "offroad_adventure.jpg",
+    "category": "Toy Cars",
+    "price": "$24.99",
+    "short_details": "Conquer any terrain with this rugged off-road toy car.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "Drift Master",
+    "picture": "drift_master.jpg",
+    "category": "Toy Cars",
+    "price": "$34.99",
+    "short_details": "Master the art of drifting with this sleek toy car.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "Monster Crusher",
+    "picture": "monster_crusher.jpg",
+    "category": "Toy Cars",
+    "price": "$29.99",
+    "short_details": "Crush obstacles with this powerful monster truck toy car.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "Racing Champions",
+    "picture": "racing_champions.jpg",
+    "category": "Toy Cars",
+    "price": "$14.99",
+    "short_details": "Compete in thrilling races with this champion toy car.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "RoboBuddy",
+    "picture": "robobuddy.jpg",
+    "category": "Toy Robots",
+    "price": "$39.99",
+    "short_details": "A friendly companion robot with interactive features.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "TransformaBot",
+    "picture": "transformabot.jpg",
+    "category": "Toy Robots",
+    "price": "$49.99",
+    "short_details": "Transforms from a robot to a vehicle in seconds.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "BattleBot",
+    "picture": "battlebot.jpg",
+    "category": "Toy Robots",
+    "price": "$34.99",
+    "short_details": "Engage in epic battles with this remote-controlled fighting robot.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "CodeMaster",
+    "picture": "codemaster.jpg",
+    "category": "Toy Robots",
+    "price": "$29.99",
+    "short_details": "Learn coding and programming with this educational robot.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "RoboDancer",
+    "picture": "robodancer.jpg",
+    "category": "Toy Robots",
+    "price": "$19.99",
+    "short_details": "A dancing robot that grooves to your favorite tunes.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "Chef's Kitchen Set",
+    "picture": "chefs_kitchen_set.jpg",
+    "category": "Cooking Toys",
+    "price": "$29.99",
+    "short_details": "A complete kitchen set for young aspiring chefs.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "Baking Fun Kit",
+    "picture": "baking_fun_kit.jpg",
+    "category": "Cooking Toys",
+    "price": "$19.99",
+    "short_details": "Enjoy baking delicious treats with this fun baking kit.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "Ice Cream Parlor",
+    "picture": "ice_cream_parlor.jpg",
+    "category": "Cooking Toys",
+    "price": "$24.99",
+    "short_details": "Create and serve your own ice cream flavors with this playset.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "Pizza Party Set",
+    "picture": "pizza_party_set.jpg",
+    "category": "Cooking Toys",
+    "price": "$34.99",
+    "short_details": "Host a pizza party and make custom pizzas with this set.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "Sushi Master Kit",
+    "picture": "sushi_master_kit.jpg",
+    "category": "Cooking Toys",
+    "price": "$39.99",
+    "short_details": "Learn to make sushi rolls with this sushi master kit.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "Chef's Kitchen Set",
+    "picture": "chefs_kitchen_set.jpg",
+    "category": "Cooking Toys",
+    "price": "$29.99",
+    "short_details": "A complete kitchen set for young aspiring chefs.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "Baking Fun Kit",
+    "picture": "baking_fun_kit.jpg",
+    "category": "Cooking Toys",
+    "price": "$19.99",
+    "short_details": "Enjoy baking delicious treats with this fun baking kit.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "Ice Cream Parlor",
+    "picture": "ice_cream_parlor.jpg",
+    "category": "Cooking Toys",
+    "price": "$24.99",
+    "short_details": "Create and serve your own ice cream flavors with this playset.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "Pizza Party Set",
+    "picture": "pizza_party_set.jpg",
+    "category": "Cooking Toys",
+    "price": "$34.99",
+    "short_details": "Host a pizza party and make custom pizzas with this set.",
+    "rating": 4.0
+  },
+  {
+    "toy_name": "Sushi Master Kit",
+    "picture": "sushi_master_kit.jpg",
+    "category": "Cooking Toys",
+    "price": "$39.99",
+    "short_details": "Learn to make sushi rolls with this sushi master kit.",
+    "rating": 4.0
+  }
 ]
