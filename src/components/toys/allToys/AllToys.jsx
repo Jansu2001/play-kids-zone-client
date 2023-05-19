@@ -1,46 +1,65 @@
 import { useLoaderData } from "react-router-dom";
 import AllToysRow from "./AllToysRow";
+import { useEffect, useState } from "react";
 
 const AllToys = () => {
-    const allToys = useLoaderData()
-    console.log(allToys);
-    return (
-        <div>
-            <div className="form-control p-5">
-                <div className="input-group justify-center ">
-                    <input type="text" placeholder="Search…" className="input input-bordered w-1/2" />
-                    <button className="btn btn w-1/7">
-                        Search Toys
-                    </button>
-                </div>
-            </div>
-            <div className="overflow-x-auto w-full">
-                <table className="table w-full">
-                    {/* head */}
-                    <thead>
-                        <tr>
-                            <th className="font-extrabold">Seller</th>
-                            <th className="font-extrabold">Toy Name</th>
-                            <th className="font-extrabold">Sub-category</th>
-                            <th className="font-extrabold">Price</th>
-                            <th className="font-extrabold">Available Quantity</th>
-                            <th className="font-extrabold">View Details </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {
-                            allToys.map(toys=><AllToysRow 
-                                key={toys._id}
-                                toys={toys}
-                                ></AllToysRow>)
-                        }
-                        
-                    </tbody>
+    const [search, setSearch] = useState("");
+  const [getToys, setGetToys] = useState([]);
 
-                </table>
-            </div>
+  
+  useEffect(()=>{
+      fetch("http://localhost:5000/addtoys")
+      .then(res=>res.json())
+      .then(data=>setGetToys(data))
+  },[])
+
+
+
+  const handleSearch = () => {
+    fetch(`http://localhost:5000/searchtoys/${search}`)
+      .then((res) => res.json())
+      .then((data) => setGetToys(data));
+  };
+
+  console.log(search);
+
+  return (
+    <div>
+      <div className="form-control p-5">
+        <div className="input-group justify-center ">
+          <input
+            onChange={(e) => setSearch(e.target.value)}
+            type="text"
+            placeholder="Search…"
+            className="input input-bordered w-1/2"
+          />
+          <button onClick={handleSearch} className="btn btn w-1/7">
+            Search Toys
+          </button>
         </div>
-    );
+      </div>
+      <div className="overflow-x-auto w-full">
+        <table className="table w-full">
+          {/* head */}
+          <thead>
+            <tr>
+              <th className="font-extrabold">Seller</th>
+              <th className="font-extrabold">Toy Name</th>
+              <th className="font-extrabold">Sub-category</th>
+              <th className="font-extrabold">Price</th>
+              <th className="font-extrabold">Available Quantity</th>
+              <th className="font-extrabold">View Details </th>
+            </tr>
+          </thead>
+          <tbody>
+            {getToys.map((toys) => (
+              <AllToysRow key={toys._id} toys={toys}></AllToysRow>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
 };
 
 export default AllToys;
