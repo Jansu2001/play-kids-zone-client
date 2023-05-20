@@ -8,7 +8,7 @@ const AllToys = () => {
 
   
   useEffect(()=>{
-      fetch("https://play-kids-zone-server-jansu2001.vercel.app/addtoys")
+      fetch("https://play-kids-zone-server.vercel.app/addtoys")
       .then(res=>res.json())
       .then(data=>setGetToys(data))
   },[])
@@ -16,7 +16,7 @@ const AllToys = () => {
 
 
   const handleSearch = () => {
-    fetch(`https://play-kids-zone-server-jansu2001.vercel.app/searchtoys/${search}`)
+    fetch(`https://play-kids-zone-server.vercel.app/searchtoys/${search}`)
       .then((res) => res.json())
       .then((data) => setGetToys(data));
   };

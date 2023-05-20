@@ -8,7 +8,7 @@ const TabComponent = () => {
   const [activeTab, setActiveTab] = useState("Avengers");
 
   useEffect(() => {
-    fetch(`https://play-kids-zone-server-jansu2001.vercel.app/toys/${activeTab}`)
+    fetch(`https://play-kids-zone-server.vercel.app/toys/${activeTab}`)
       .then((res) => res.json())
       .then((data) => setToys(data));
   }, [activeTab]);
@@ -17,6 +17,8 @@ const TabComponent = () => {
 
   const handleTabClick = (tabName) => {
     setActiveTab(tabName);
+
+
   };
 
   return (
