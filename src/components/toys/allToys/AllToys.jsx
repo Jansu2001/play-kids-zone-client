@@ -1,22 +1,18 @@
-
 import AllToysRow from "./AllToysRow";
 import { useEffect, useState } from "react";
 
 const AllToys = () => {
-    const [search, setSearch] = useState("");
+  const [search, setSearch] = useState("");
   const [getToys, setGetToys] = useState([]);
 
-  
-  useEffect(()=>{
-      fetch("https://play-kids-zone-server.vercel.app/addtoys")
-      .then(res=>res.json())
-      .then(data=>setGetToys(data))
-  },[])
-
-
+  useEffect(() => {
+    fetch("http://localhost:5000/addtoys")
+      .then((res) => res.json())
+      .then((data) => setGetToys(data));
+  }, []);
 
   const handleSearch = () => {
-    fetch(`https://play-kids-zone-server.vercel.app/searchtoys/${search}`)
+    fetch(`http://localhost:5000/searchtoys/${search}`)
       .then((res) => res.json())
       .then((data) => setGetToys(data));
   };
@@ -53,7 +49,7 @@ const AllToys = () => {
             </tr>
           </thead>
           <tbody>
-            {getToys.map((toys,index) => (
+            {getToys.map((toys, index) => (
               <AllToysRow key={toys._id} index={index} toys={toys}></AllToysRow>
             ))}
           </tbody>

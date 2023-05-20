@@ -9,7 +9,7 @@ const Banner = () => {
       .then((data) => setCateCards(data));
   }, []);
 
-  console.log(cateCards);
+  // console.log(cateCards);
 
   return (
     <div className=" ">

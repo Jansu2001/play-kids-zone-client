@@ -11,7 +11,7 @@ const PopularProducts = () => {
       .then((data) => setProCards(data));
   }, []);
 
-  console.log(proCards);
+  // console.log(proCards);
 
   return (
     <div className="pt-4">

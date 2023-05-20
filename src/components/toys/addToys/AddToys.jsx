@@ -32,7 +32,7 @@ const AddToys = () => {
         }
         console.log(addToys);
 
-        fetch('https://play-kids-zone-server.vercel.app/addtoys', {
+        fetch('http://localhost:5000/addtoys', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
