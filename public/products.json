@@ -1,58 +1,76 @@
 [
     {
         "id": "Dh98lK23k41JhRt",
-        "picture": "https://images.unsplash.com/photo-1560718217-69193acc0713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=733&q=80",
-        "name": "Wireless Bluetooth Headphones",
+        "picture": "https://images.unsplash.com/photo-1613536491198-a0afa1916b3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=386&q=80",
+        "name": "Avengers Remote Control Car",
         "rating": 4.5,
         "price": "$59.99",
         "date": "2023-05-01",
-        "category": "Electronics"
+        "category": "Avengers"
       },
       {
         "id": "Gh76Mj54b21KlVd",
-        "picture": "https://images.unsplash.com/photo-1604671748253-e683240e7efa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80",
-        "name": "Smartphone Case",
+        "picture": "https://images.unsplash.com/photo-1613257125720-c2f8a783416a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "name": " Assemble Playset",
         "rating": 4.2,
         "price": "$19.99",
         "date": "2023-04-28",
-        "category": "Accessories"
+        "category": "Playsets"
       },
       {
         "id": "Op32Xc97v45YtPo",
-        "picture": "https://images.unsplash.com/photo-1529810313688-44ea1c2d81d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=641&q=80",
-        "name": "Men's Sports Shoes",
+        "picture": "https://images.unsplash.com/photo-1638437447411-17a4005b2f56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=327&q=80",
+        "name": "Star Wars Lightsaber Replica",
         "rating": 4.8,
         "price": "$79.99",
         "date": "2023-05-03",
-        "category": "Footwear"
+        "category": "Replicas"
       },                  
       {
         "id": "Ty47Ns55m62FgRw",
-        "picture": "https://images.unsplash.com/photo-1581591546314-528384aab67c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
-        "name": "Digital Camera",
+        "picture": "https://images.unsplash.com/photo-1512572525676-f9b59951929e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=757&q=80",
+        "name": "Transformers  Action Figure",
         "rating": 4.3,
         "price": "$299.99",
         "date": "2023-05-07",
-        "category": "Electronics"
+        "category": "Action Figures"
       }
       ,
       {
         "id": "Zx74Vb33n89DsPa",
-        "picture": "https://images.unsplash.com/photo-1461685265823-f8d5d0b08b9b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
-        "name": "Home Security Camera",
+        "picture": "https://images.unsplash.com/photo-1592513002316-e4fa19175023?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=327&q=80",
+        "name": "Groot Action Figure",
         "rating": 4.4,
         "price": "$89.99",
         "date": "2023-05-05",
-        "category": "Home Improvement"
+        "category": "Action Figures"
       },      
       {
-        "id": "Rt29Kl11c76FgXd",
-        "picture": "https://images.unsplash.com/photo-1591348278863-a8fb3887e2aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=517&q=80",
-        "name": "Women's Handbag",
+        "id": "Rt29Kl17c16FgXd",
+        "picture": "https://images.unsplash.com/photo-1623984109622-f9c970ba32fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=436&q=80",
+        "name": "Iron Man Action Figure",
         "rating": 4.6,
         "price": "$49.99",
         "date": "2023-05-02",
-        "category": "Fashion"
+        "category": "Action Figures"
+      },
+      {
+        "id": "Rt29Kl13c26FgXe",
+        "picture": "https://images.unsplash.com/photo-1623984109622-f9c970ba32fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=436&q=80",
+        "name": "Iron Man Action Figure",
+        "rating": 4.6,
+        "price": "$49.99",
+        "date": "2023-05-02",
+        "category": "Action Figures"
+      },
+      {
+        "id": "Rt29Kl11c76FgXf",
+        "picture": "https://images.unsplash.com/photo-1623984109622-f9c970ba32fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=436&q=80",
+        "name": "Iron Man Action Figure",
+        "rating": 4.6,
+        "price": "$49.99",
+        "date": "2023-05-02",
+        "category": "Action Figures"
       }
             
 ]

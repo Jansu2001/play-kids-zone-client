@@ -1,53 +1,57 @@
 const Gallery = () => {
   return (
-    <div className="lg:p-5 ">
-      <h1 className="text-center lg:text-5xl mx-auto lg:w-1/3 lg:p-4 p-2 text-2xl  rounded-lg font-bold bg bg-sky-400 text-white">Our Gallery</h1>
-      <div className=" lg:flex p-4 shadow-xl gap-2">
-        <div className="lg:flex  lg:w-1/2 gap-2">
-          <div className="">
-            <img
-              className="rounded-lg  lg:h-full"
-              src="https://images.unsplash.com/photo-1608889335941-32ac5f2041b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80"
-              alt="Shoes"
-            />
-          </div>
-          <div className="lg:w-1/2 my-auto  ">
-            <div className=" ">
-
-                <img
-                  className="rounded-lg    "
-                  src="https://images.unsplash.com/photo-1608889335941-32ac5f2041b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80"
-                  alt="Shoes"
-                />
-
+    <div className="lg:p-3 bg bg-indigo-400 ">
+      <h1 className="text-center lg:text-5xl mx-auto w-1/2 lg:w-1/4 lg:px-2 p-2 text-2xl rounded-lg font-bold bg bg-sky-400 text-white">
+        Our Gallery
+      </h1>
+      <div className="lg:container mx-auto px-5 py-2 lg:px-18 lg:pt-5">
+        <div className="-m-1 lg:flex flex-wrap md:-m-2   relative  overflow-hidden bg-cover bg-no-repeat">
+          <div className="flex lg:w-1/2 flex-wrap">
+            <div className="w-1/2 p-1 md:p-2">
+              <img
+                alt="gallery"
+                className="block h-full w-full rounded-lg object-cover object-center   transition duration-300 ease-in-out hover:scale-110"
+                src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+              />
             </div>
-            <div className=" ">
-
-                <img
-                  className="rounded-lg  mt-3 "
-                  src="https://images.unsplash.com/photo-1608889335941-32ac5f2041b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80"
-                  alt="Shoes"
-                />
-
+            <div className="w-1/2 p-1 md:p-2">
+              <img
+                alt="gallery"
+                className="block h-full w-full rounded-lg object-cover object-center   transition duration-300 ease-in-out hover:scale-110"
+                src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+              />
             </div>
-            <div className=" ">
-
-                <img
-                  className="rounded-lg   mt-3 "
-                  src="https://images.unsplash.com/photo-1608889335941-32ac5f2041b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80"
-                  alt="Shoes"
-                />
-
+            <div className="w-full p-1 md:p-2">
+              <img
+                alt="gallery"
+                className="block h-full w-full rounded-lg object-cover object-center   transition duration-300 ease-in-out hover:scale-110"
+                src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+              />
             </div>
           </div>
-          
-        </div>
-        <div className="lg:flex lg:w-1/2 ">
-            <img
-              className="rounded-lg   "
-              src="https://images.unsplash.com/photo-1608889335941-32ac5f2041b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80"
-              alt="Shoes"
-            />
+          <div className="flex lg:w-1/2 flex-wrap">
+            <div className="w-full p-1 md:p-2">
+              <img
+                alt="gallery"
+                className="block h-full w-full rounded-lg object-cover object-center   transition duration-300 ease-in-out hover:scale-110"
+                src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+              />
+            </div>
+            <div className="w-1/2 p-1 md:p-2">
+              <img
+                alt="gallery"
+                className="block h-full w-full rounded-lg object-cover object-center   transition duration-300 ease-in-out hover:scale-110"
+                src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+              />
+            </div>
+            <div className="w-1/2 p-1 md:p-2">
+              <img
+                alt="gallery"
+                className="block h-full w-full rounded-lg object-cover object-center   transition duration-300 ease-in-out hover:scale-110"
+                src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>

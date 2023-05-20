@@ -8,7 +8,7 @@ const TabComponent = () => {
   const [activeTab, setActiveTab] = useState("Avengers");
 
   useEffect(() => {
-    fetch(`http://localhost:5000/toys/${activeTab}`)
+    fetch(`https://play-kids-zone-server-jansu2001.vercel.app/toys/${activeTab}`)
       .then((res) => res.json())
       .then((data) => setToys(data));
   }, [activeTab]);
