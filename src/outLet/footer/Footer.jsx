@@ -12,10 +12,10 @@ const Footer = () => {
                 </div>
                 <div>
                     <span className="footer-title">Services</span>
-                    <a className="link link-hover">Branding</a>
-                    <a className="link link-hover">Design</a>
-                    <a className="link link-hover">Marketing</a>
-                    <a className="link link-hover">Advertisement</a>
+                    <a className="link link-hover">Kids Toys</a>
+                    <a className="link link-hover">Disney Toys</a>
+                    <a className="link link-hover">Marvel Toys</a>
+                    <a className="link link-hover">Science Toys</a>
                 </div>
                 <div>
                     <span className="footer-title">Company</span>
@@ -33,7 +33,7 @@ const Footer = () => {
             </footer>
             <footer className="footer footer-center pb-4  text-neutral-content">
                 <div>
-                    <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+                    <p>Copyright © 2023 - All right reserved by Play Kids Zone Ltd</p>
                 </div>
             </footer>
         </div>

@@ -1,4 +1,4 @@
-import { useLoaderData } from "react-router-dom";
+
 import AllToysRow from "./AllToysRow";
 import { useEffect, useState } from "react";
 
@@ -43,6 +43,7 @@ const AllToys = () => {
           {/* head */}
           <thead>
             <tr>
+              <th className="font-extrabold">Index</th>
               <th className="font-extrabold">Seller</th>
               <th className="font-extrabold">Toy Name</th>
               <th className="font-extrabold">Sub-category</th>
@@ -52,8 +53,8 @@ const AllToys = () => {
             </tr>
           </thead>
           <tbody>
-            {getToys.map((toys) => (
-              <AllToysRow key={toys._id} toys={toys}></AllToysRow>
+            {getToys.map((toys,index) => (
+              <AllToysRow key={toys._id} index={index} toys={toys}></AllToysRow>
             ))}
           </tbody>
         </table>

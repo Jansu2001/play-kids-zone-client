@@ -4,7 +4,7 @@ const BannerCard = ({ card }) => {
     const{toy_name,picture,category,short_details}=card;
 
   return (
-    <div className="card   image-full">
+    <div className="card image-full">
       <figure>
         <img
           src={picture}
