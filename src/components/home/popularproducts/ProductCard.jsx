@@ -2,7 +2,7 @@ const ProductCard = ({ card }) => {
   const { picture, name, rating, price, date, category } = card;
   return (
     <div>
-      <div className="card rounded-none glass">
+      <div className="card  glass">
         <figure>
           <img className="h-96 w-full"
             src={picture}
