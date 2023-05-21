@@ -1,10 +1,14 @@
-import { Link } from "react-router-dom";
 
+import { Link } from "react-router-dom";
 const TabCard = ({ toy }) => {
   return (
     <div className="card w-96 h-[340px] bg-base-100  shadow-xl  relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
       <figure>
-        <img className="w-full h-96 max-w-xs transition duration-300 ease-in-out hover:scale-110" src={toy?.photo} alt="Shoes" />
+        <img
+          className="w-full h-96 max-w-xs transition duration-300 ease-in-out hover:scale-110"
+          src={toy?.photo}
+          alt="Shoes"
+        />
       </figure>
       <div className="card-body relative ">
         <div className="text-start  absolute bottom-20   w-full text-white">

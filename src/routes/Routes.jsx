@@ -19,48 +19,59 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
-        path: '/',
+        path: "/",
         element: <Home></Home>,
-        loader:()=>fetch(`http://localhost:5000/addtoys`)
+        loader: () => fetch(`http://localhost:5000/addtoys`),
       },
       {
-        path: '/login',
-        element: <Login></Login>
+        path: "/login",
+        element: <Login></Login>,
       },
       {
-        path: '/register',
-        element: <Register></Register>
+        path: "/register",
+        element: <Register></Register>,
       },
       {
-        path:'blogs',
-        element:<Blogs></Blogs>
+        path: "blogs",
+        element: <Blogs></Blogs>,
       },
       {
-        path: '/add-toys',
-        element: <PrivateRoutes>
-          <AddToys></AddToys>
-        </PrivateRoutes>
+        path: "/add-toys",
+        element: (
+          <PrivateRoutes>
+            <AddToys></AddToys>
+          </PrivateRoutes>
+        ),
       },
       {
-        path: 'all-toys',
-        element: <AllToys></AllToys>
+        path: "all-toys",
+        element: <AllToys></AllToys>,
       },
       {
-        path: '/my-toys',
-        element: <PrivateRoutes><MyToys></MyToys></PrivateRoutes>
+        path: "/my-toys",
+        element: (
+          <PrivateRoutes>
+            <MyToys></MyToys>
+          </PrivateRoutes>
+        ),
       },
       {
-        path: 'update/:id',
+        path: "update/:id",
         element: <UpdateToys></UpdateToys>,
-        loader: ({ params }) => fetch(`http://localhost:5000/addtoys/${params.id}`)
+        loader: ({ params }) =>
+          fetch(`http://localhost:5000/addtoys/${params.id}`),
       },
       {
-        path: 'toy-details/:id',
-        element: <PrivateRoutes><ToyDetails></ToyDetails></PrivateRoutes>,
-        loader: ({ params }) => fetch(`http://localhost:5000/addtoys/${params.id}`)
-      }
-
-    ]
+        path: "toy-details/:id",
+        element: (
+          <PrivateRoutes>
+            <ToyDetails></ToyDetails>
+          </PrivateRoutes>
+        ),
+        loader: ({ params }) =>
+          fetch(`http://localhost:5000/addtoys/${params.id}`),
+      },
+    ],
   },
 ]);
 export default router;

@@ -61,7 +61,7 @@ const AddToys = () => {
                     <div className="form-control w-1/2">
                         <label className="input-group input-group-vertical">
                             <span className="text-center">Toy Name</span>
-                            <input type="text" name="name" placeholder="Toy Name" className="input  input-bordered focus:border-none " />
+                            <input type="text" name="name" placeholder="Toy Name" className="input  input-bordered focus:border-none "required />
                         </label>
                     </div>
                     <div className="form-control w-1/2">
@@ -81,7 +81,7 @@ const AddToys = () => {
                     <div className="form-control w-1/2">
                         <label className="input-group input-group-vertical">
                             <span className="text-center">Photo URL</span>
-                            <input type="text" name="photoURL" placeholder="" className="input  input-bordered focus:border-none " />
+                            <input type="text" name="photoURL" placeholder="" className="input  input-bordered focus:border-none" required />
                         </label>
                     </div>
                 </div>
@@ -89,13 +89,13 @@ const AddToys = () => {
                     <div className="form-control w-1/2">
                         <label className="input-group input-group-vertical">
                             <span className="text-center">Sub-category </span>
-                            <input type="text" name="subCategory" placeholder="" className="input  input-bordered focus:border-none " />
+                            <input type="text" name="subCategory" placeholder="" className="input  input-bordered focus:border-none "required />
                         </label>
                     </div>
                     <div className="form-control w-1/2">
                         <label className="input-group input-group-vertical">
                             <span className="text-center">Price</span>
-                            <input type="text" name="price" placeholder="" className="input  input-bordered focus:border-none " />
+                            <input type="text" name="price" placeholder="" className="input  input-bordered focus:border-none " required/>
                         </label>
                     </div>
                 </div>
