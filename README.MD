@@ -1,17 +1,17 @@
-# Marvel Toys Market Starter Repository
+# Play Kids Zone LTD
 
 A simple React app built with React & React Router Dom.
 
 ## Live Link
-Hosted in Netlify -> [Play Kids Zone](''''')
+Hosted in Netlify -> [Play Kids Zone](https://backend-database-11.web.app/)
 
-
-## Starter Template
-Github Repo -> [nextPage-starter](''')
 
 ## API 
+Vercel Repo -> [Vercel](https://play-kids-zone-server.vercel.app/)
 
-Documentation Link -> [It Bookstore API]('''''''')
+
+## Component 
+Documentation Link -> [Tailwind CSS](https://tailwindcss.com/docs/guides/vite)
 
 ## React Router Dom v6.4 
 
