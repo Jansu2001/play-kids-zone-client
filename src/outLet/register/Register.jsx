@@ -47,7 +47,6 @@ const Register = () => {
         photoURL: photo,
       })
         .then(() => {
-          console.log("user profile updateed");
         })
         .catch((error) => {
           setError(error.message);
@@ -61,7 +60,7 @@ const Register = () => {
         <div className="card  w-full max-w-sm shadow-2xl bg-base-100">
           <form onSubmit={handleRegister}>
             <div className="card-body">
-              <h1 className="text-4xl text-center font-bold">Register Now!</h1>
+              <h1 className="text-4xl text-center font-bold">Register Play Kids!</h1>
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Name</span>

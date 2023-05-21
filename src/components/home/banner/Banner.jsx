@@ -57,7 +57,7 @@ const Banner = () => {
           />
         </div>
       </div>
-        <h1 className="p-5 mt-5 text-3xl lg:text-4xl lg:mx-auto rounded-lg lg:w-1/2 bg bg-sky-400 font-bold text-center">Popular Category </h1>
+        <h1 className="p-5 mt-5 text-3xl lg:text-4xl lg:mx-auto rounded-lg lg:w-1/3 bg bg-cyan-400 font-bold text-center">Popular Category </h1>
       <div className="pt-10 gap-5  grid grid-cols-1 lg:grid-cols-2">
         {
             cateCards.map((card,index)=><BannerCard

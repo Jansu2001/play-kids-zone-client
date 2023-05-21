@@ -46,7 +46,7 @@ const Login = () => {
                 <div className="card w-full max-w-sm shadow-2xl bg-base-100">
                     <form onSubmit={handleSignIn}>
                         <div className="card-body">
-                            <h1 className="text-4xl text-center font-bold">Login now!</h1>
+                            <h1 className="text-4xl text-center font-bold">Login Play Kids!</h1>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Email</span>
@@ -77,7 +77,7 @@ const Login = () => {
                                 setSuccess={setSuccess}
                                 setError={setError}
                                 ></SocialLogin>
-                                <p className='pt-4'>New to Car Doctor? <Link className='text-orange-700' to='/register'>Register</Link> </p>
+                                <p className='pt-4'>New to Play Kids? <Link className='text-orange-700' to='/register'>Register</Link> </p>
                             </div>
                         </div>
                     </form>

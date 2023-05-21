@@ -21,7 +21,7 @@ const UpdateToys = () => {
         }
         // console.log(updatedInfo);
 
-        fetch(`http://localhost:5000/addtoys/${_id}`, {
+        fetch(`https://play-kids-zone-server.vercel.app/addtoys/${_id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'
@@ -34,7 +34,7 @@ const UpdateToys = () => {
                 if (data.modifiedCount> 0) {
                     Swal.fire(
                         `Thank You `,
-                        'Your Just Add Toys',
+                        'Your Just Update Toys',
                         'success'
                     )
                 }
@@ -45,7 +45,7 @@ const UpdateToys = () => {
 
     return (
         <div className='mb-5'>
-            <h3>Use: {_id}</h3>
+            <h1 className='text-center text-4xl p-5 font-semibold'>You Can Update Toys Information</h1>
             <form onSubmit={handleUpdate}>
                 <div className="flex mb-4 gap-5">
                     <div className="form-control w-1/2">

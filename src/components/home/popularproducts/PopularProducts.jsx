@@ -15,7 +15,7 @@ const PopularProducts = () => {
 
   return (
     <div className="pt-4">
-      <h1 className="text-4xl font-bold rounded-lg lg:w-1/3 bg bg-indigo-400 p-3 text-center mx-auto">Popular Products</h1>
+      <h1 className="text-4xl font-bold rounded-lg lg:w-1/3 bg bg-indigo-200 p-3 text-center mx-auto">Popular Products</h1>
       <div className="grid grid-cols-1 lg:grid-cols-4 pt-5 gap-3">
         {
             proCards.map(card=><ProductCard

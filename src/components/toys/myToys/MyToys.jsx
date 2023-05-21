@@ -7,7 +7,7 @@ const MyToys = () => {
   const { user } = useContext(AuthContext);
   const [myToys, setMyToys] = useState([]);
 
-  const URL = `http://localhost:5000/addtoys?email=${user?.email}`;
+  const URL = `https://play-kids-zone-server.vercel.app/addtoys?email=${user?.email}`;
   useEffect(() => {
     fetch(URL)
       .then((res) => res.json())
@@ -18,7 +18,7 @@ const MyToys = () => {
   const handleDelete = (_id) => {
     Swal.fire({
       title: "Are you sure?",
-      text: "You won't be able to revert this!",
+      text: "You want to Delete This Toy!",
       icon: "warning",
       showCancelButton: true,
       confirmButtonColor: "#3085d6",
@@ -26,7 +26,7 @@ const MyToys = () => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`http://localhost:5000/addtoys/${_id}`, {
+        fetch(`https://play-kids-zone-server.vercel.app/addtoys/${_id}`, {
           method: "DELETE",
           headers: {
             "content-type": "application/json",
@@ -36,7 +36,7 @@ const MyToys = () => {
           .then((data) => {
             console.log(data);
             if (data.deletedCount > 0) {
-              Swal.fire("Deleted!", "Your file has been deleted.", "success");
+              Swal.fire("Deleted!", "Your Toy has been deleted.", "success");
               const remaining = myToys.filter((booking) => booking._id !== _id);
               setMyToys(remaining);
             }

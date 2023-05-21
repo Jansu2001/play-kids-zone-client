@@ -6,13 +6,13 @@ const AllToys = () => {
   const [getToys, setGetToys] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/addtoys")
+    fetch("https://play-kids-zone-server.vercel.app/addtoys")
       .then((res) => res.json())
       .then((data) => setGetToys(data));
   }, []);
 
   const handleSearch = () => {
-    fetch(`http://localhost:5000/searchtoys/${search}`)
+    fetch(`https://play-kids-zone-server.vercel.app/searchtoys/${search}`)
       .then((res) => res.json())
       .then((data) => setGetToys(data));
   };

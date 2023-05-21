@@ -19,7 +19,7 @@ const TabComponent = ({ tabCategory }) => {
   // console.log(toys);
   return (
     <div className="py-6 text-center ">
-      <h1 className="lg:text-4xl text-2xl font-bold mx-auto bg bg-indigo-600 text-white lg:w-1/3 p-3 rounded-lg ">
+      <h1 className="lg:text-4xl text-2xl font-bold mx-auto bg bg-indigo-400 text-white lg:w-1/3 p-3 rounded-lg ">
         Shop By Category
       </h1>
       <div className="pt-5">
