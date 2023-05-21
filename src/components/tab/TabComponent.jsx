@@ -18,7 +18,7 @@ const TabComponent = ({ tabCategory }) => {
   };
   // console.log(toys);
   return (
-    <div className="p-6 text-center ">
+    <div className="py-6 text-center ">
       <h1 className="lg:text-4xl text-2xl font-bold mx-auto bg bg-indigo-600 text-white lg:w-1/3 p-3 rounded-lg ">
         Shop By Category
       </h1>
@@ -32,7 +32,7 @@ const TabComponent = ({ tabCategory }) => {
                 </div>
               </Tab>
               <Tab>
-                <div onClick={() => handleTabClick("Star wars")}>Star Wars</div>
+                <div onClick={() => handleTabClick("Star Wars")}>Star Wars</div>
               </Tab>
               <Tab>
                 <div onClick={() => handleTabClick("transformers")}>
@@ -42,22 +42,22 @@ const TabComponent = ({ tabCategory }) => {
             </TabList>
           </div>
           <TabPanel>
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 lg:gap-0">
-              {toys.slice(0,3).map((toy) => (
+            <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-8">
+              {toys.slice(0,4).map((toy) => (
                 <TabCard key={toy._id} toy={toy}></TabCard>
               ))}
             </div>
           </TabPanel>
           <TabPanel>
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 lg:gap-0">
-              {toys.slice(0,3).map((toy) => (
+            <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-8">
+              {toys.slice(0,4).map((toy) => (
                 <TabCard key={toy._id} toy={toy}></TabCard>
               ))}
             </div>
           </TabPanel>
           <TabPanel>
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 lg:gap-0">
-              {toys.slice(0,3).map((toy) => (
+            <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-8">
+              {toys.slice(0,4).map((toy) => (
                 <TabCard key={toy._id} toy={toy}></TabCard>
               ))}
             </div>

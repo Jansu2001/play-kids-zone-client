@@ -22,28 +22,10 @@ const ProductCard = ({ card }) => {
           <button className=" text-center  text-white ">Add To Card</button>
           </div>
           <p>Date: {date}</p>
-          {/* <div className="card-actions justify-end">
-            <button className="btn btn-primary">Learn now!</button>
-          </div> */}
+          
         </div>
       </div>
       
-      {/* <div className="h-96 border bg bg-sky-400 ">
-        <div className="">
-          <img className="h-48 w-48" src={picture} alt="" />
-        </div>
-        <div className="">
-          <p>Category: {category}</p>
-          <p> {name}</p>
-          <p>Rating: {rating}</p>
-          <p>Price: {price}</p>
-          <div className="flex bg bg-indigo-400 rounded-lg justify-center px-3 items-center gap-2 mx-auto">
-            <FaShoppingCart></FaShoppingCart>
-            <button className=" text-center  text-white ">Add To Card</button>
-          </div>
-          <p>Date: {date}</p>
-        </div>
-      </div> */}
     </div>
   );
 };
